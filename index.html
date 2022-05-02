@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/d312a57cb6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "css/18.css">
+    <!-- font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    - Violet: hsl(257, 40%, 49%)
+    - Soft Magenta: hsl(300, 69%, 71%) -->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        body {
+
+            min-height: 100vh;
+            background-image: url("bg-desktop.svg");
+            background-repeat: no-repeat;
+            background-color: hsl(257, 40%, 49%);
+            background-size: cover;
+            color: white;
+        }
+        .mw-1300 {
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .flex {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px 30px;
+            margin: 0 2rem;
+        }
+        .logo-size {
+            width: 160px;
+            height: auto;
+            padding-bottom: 30px;
+        }
+        .img-size {
+            width: 600px;
+            height: auto;
+            min-width: 300px;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 18px;
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 18px;
+            line-height: 1.5;
+        }
+        .button {
+            width: 180px;
+            height: auto;
+            margin-top: 30px;
+            display:block;
+            text-align: center;
+            text-decoration: none;
+            background-color: white;
+            font-family: 'Poppins', sans-serif;
+            padding: 13px 50px;
+            font-size: bold;
+            border-radius: 30px;
+            box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .8);
+        }
+        .button:hover {
+            color: white;
+            background-color: hsl(300, 69%, 71%);
+        }
+        #social {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+        #social a i {
+            color: white;
+            font-size: 17px;
+            border: 2px solid white;
+            border-radius: 30px;
+            padding: 8px;
+        }
+        #social a i:hover {
+            color: hsl(300, 69%, 71%);
+            border: 2px solid hsl(300, 69%, 71%);
+        }
+
+       
+        @media screen and (max-width: 768px) {
+            .sm\:column {
+                flex-direction: column;
+            }
+            .sm\:img {
+                width: 70%;
+            }
+            .sm\:text-center {
+                text-align: center;
+            }
+            .sm\:item-center {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container" class="mw-1300" style="">
+        <div id="wrapper" class="flex-column">
+            <div id="header" class="">
+                <img src="logo.svg" class="logo-size" alt="">
+            </div>
+            <div id="main" class="flex sm:column">
+                <div id="hero-img" class="">
+                    <img src="illustration-mockups.svg" class="img-size sm:img" alt="">
+                </div>
+                <div id="hero text" style="" class="sm:text-center">
+                    <h1>Build the community Your fans will love</h1>
+                    <p>Huddle re-imagines the way we build communities. You have a voice but so does your audience. Create connections with your users as you engage in genuine discussion.
+                    <div class="sm:item-center">
+                        <a href="#" class="button">Register </a>
+                    </div>
+                        
+                </div>
+            </div>
+            <div id="social" class="">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#"> 
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
