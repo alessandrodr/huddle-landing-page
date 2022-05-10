@@ -18,5 +18,4 @@ Desktop view:
 
 Mobile View:
 
-<img src="https://user-images.githubusercontent.com/103607112/167738911-8f4f303d-eaf3-40ca-9e76-7760be918255.png" width="300px" height="auto" title="huddle-m">
-
+![screencapture-localhost-2022-05-11-01_05_12](https://user-images.githubusercontent.com/103607112/167739180-2324b13b-b609-40df-98e6-038e3e7bbd11.png)
