@@ -18,5 +18,5 @@ Desktop view:
 
 Mobile View:
 
-<img src="https://user-images.githubusercontent.com/103607112/167738911-8f4f303d-eaf3-40ca-9e76-7760be918255.png" width="375" height="auto" title="huddle-m">
+<img src="https://user-images.githubusercontent.com/103607112/167738911-8f4f303d-eaf3-40ca-9e76-7760be918255.png" width="300px" height="auto" title="huddle-m">
 
